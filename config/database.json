@@ -1,5 +1,59 @@
 {
-  "users": [],
-  "fighters": [],
+  "users": [
+    {
+      "email": "newnew@gmail.com",
+      "password": "newnewnew",
+      "firstName": "New",
+      "lastName": "Newnew",
+      "phoneNumber": "+380085910000",
+      "id": "2ebd6b34-c584-46fa-8220-1d1bf78b7d56",
+      "createdAt": "2023-06-24T10:34:29.819Z",
+      "updatedAt": "2023-06-24T19:41:56.505Z"
+    },
+    {
+      "email": "1baraba1n@gmail.com",
+      "password": "Jlwbewqeq",
+      "firstName": "Test",
+      "lastName": "Test",
+      "phoneNumber": "+380984910499",
+      "id": "6c4bd729-19cb-4165-b28f-8ac393c64c4b",
+      "createdAt": "2023-06-24T18:41:13.686Z"
+    },
+    {
+      "email": "new@gmail.com",
+      "password": "Newnew",
+      "firstName": "NEW",
+      "lastName": "NEWNEW",
+      "phoneNumber": "+380985940300",
+      "id": "73fd11e3-d9a0-4b64-940d-4e89c8fddd2c",
+      "createdAt": "2023-06-24T19:06:14.925Z"
+    },
+    {
+      "email": "new@gmail.com",
+      "password": "Newnew",
+      "firstName": "New",
+      "lastName": "New",
+      "phoneNumber": "+380985910102",
+      "id": "910e4bba-dcc5-41c3-ad37-0243a21c13d1",
+      "createdAt": "2023-06-24T20:19:52.255Z"
+    }
+  ],
+  "fighters": [
+    {
+      "name": "New",
+      "power": 5,
+      "defense": 5,
+      "id": "85741d20-fbfb-43cd-bec7-4ad201f21e96",
+      "createdAt": "2023-06-24T18:25:31.942Z",
+      "updatedAt": "2023-06-24T19:24:01.293Z"
+    },
+    {
+      "name": "Karate",
+      "power": 8,
+      "defense": 6,
+      "id": "c4feb0db-0ad2-4470-bcf1-3b3e4dc9dd3e",
+      "createdAt": "2023-06-24T18:41:37.797Z"
+    }
+  ],
   "fights": []
 }

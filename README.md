@@ -46,18 +46,18 @@ index.js — це точка входу в застосунок і конфіг�
 Необхідно реалізувати REST API для сутностей користувача і бійця.
 
     USER:
-        GET /api/users
-        GET /api/users/:id
-        POST /api/users
-        PUT /api/users/:id
-        DELETE /api/users/:id
+      + GET /api/users
+      + GET /api/users/:id
+      + POST /api/users
+      + PUT /api/users/:id
+      + DELETE /api/users/:id
 
     FIGHTER
-        GET /api/fighters
-        GET /api/fighters/:id
-        POST /api/fighters
-        PUT /api/fighters/:id
-        DELETE /api/fighters/:id
+      + GET /api/fighters
+      + GET /api/fighters/:id
+      + POST /api/fighters
+      + PUT /api/fighters/:id
+      + DELETE /api/fighters/:id
 
 Для запитів на створення і оновлення сутностей необхідно реалізувати валідацію через middlewares. Правила валідації визначаються сутностями, в папці models. Валідувати необхідно:
 
