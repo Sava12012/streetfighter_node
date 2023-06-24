@@ -40,4 +40,28 @@ router.get("/:id", (req, res, next) => {
   }
 });
 
+router.put("/:id", updateUserValid, (req, res, next) => {
+  try {
+    const { id } = req.params;
+    const dataToUpdate = req.body;
+
+    console.log("id, dataToUpdate", id, dataToUpdate);
+    const updatedUser = userService.update(id, dataToUpdate);
+    res.success(updatedUser);
+  } catch (error) {
+    next(error);
+  }
+});
+
+router.delete("/:id", (req, res, next) => {
+  // TODO: YurGo id validation?
+  try {
+    const { id } = req.params;
+    const result = userService.delete(id);
+    res.success(result); // TODO: YurGo return 204
+  } catch (error) {
+    next(error);
+  }
+});
+
 export { router };

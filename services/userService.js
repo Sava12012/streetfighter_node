@@ -23,8 +23,16 @@ class UserService {
     }
     return item;
   }
-  search(search) {
-    const item = userRepository.getOne(search);
+  update(id, dataToUpdate) {
+    const item = userRepository.update(id, dataToUpdate);
+    if (!item) {
+      return null;
+    }
+    return item;
+  }
+
+  delete(id) {
+    const item = userRepository.delete(id);
     if (!item) {
       return null;
     }

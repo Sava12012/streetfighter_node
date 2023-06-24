@@ -30,7 +30,7 @@ const updateFighterValid = (req, res, next) => {
     return res
       .status(400)
       .json({ error: "Invalid name. Only letters are allowed." });
-  } // TODO: YurGo. name - min 3 symbols???
+  } // TODO: YurGo. name - min 3 symbols??? // only one required!
 
   // Validate power
   if (power && (isNaN(power) || power < 1 || power > 100)) {

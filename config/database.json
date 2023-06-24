@@ -1,22 +1,14 @@
 {
   "users": [
     {
-      "email": "baraban@gmail.com",
-      "password": "Baraban2020",
-      "firstName": "Baraban",
-      "lastName": "Barabanovich",
-      "phoneNumber": "+380985910100",
+      "email": "newnew@gmail.com",
+      "password": "newnewnew",
+      "firstName": "New",
+      "lastName": "Newnew",
+      "phoneNumber": "+380085910000",
       "id": "2ebd6b34-c584-46fa-8220-1d1bf78b7d56",
-      "createdAt": "2023-06-24T10:34:29.819Z"
-    },
-    {
-      "email": "1baraba1n@gmail.com",
-      "password": "Jlwbewqeq",
-      "firstName": "Muson",
-      "lastName": "Marat",
-      "phoneNumber": "+380985910400",
-      "id": "5a4c6ecf-3061-4d0e-bbfa-6b20063ea7f4",
-      "createdAt": "2023-06-24T11:10:26.913Z"
+      "createdAt": "2023-06-24T10:34:29.819Z",
+      "updatedAt": "2023-06-24T19:41:56.505Z"
     },
     {
       "email": "1baraba1n@gmail.com",
@@ -38,13 +30,6 @@
     }
   ],
   "fighters": [
-    {
-      "name": "Yyra",
-      "power": 10,
-      "defense": 10,
-      "id": "40c24073-12cc-4d35-a6a8-12ea5c57a536",
-      "createdAt": "2023-06-24T12:47:14.077Z"
-    },
     {
       "name": "New",
       "power": 5,

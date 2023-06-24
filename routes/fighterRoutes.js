@@ -41,13 +41,24 @@ router.get("/:id", (req, res, next) => {
 
 router.put("/:id", updateFighterValid, (req, res, next) => {
   try {
-    console.log("fighter put roule");
     const { id } = req.params;
     const dataToUpdate = req.body;
 
-    console.log("id, dataToUpdate", id, dataToUpdate);
     const updatedFighter = fighterService.update(id, dataToUpdate);
     res.success(updatedFighter);
+  } catch (error) {
+    next(error);
+  }
+});
+
+router.delete("/:id", (req, res, next) => {
+  // TODO: YurGo id validation?
+  try {
+    const { id } = req.params;
+
+    console.log("id fighter to delete", id);
+    const result = fighterService.delete(id);
+    res.success(result); // TODO: YurGo return 204
   } catch (error) {
     next(error);
   }
