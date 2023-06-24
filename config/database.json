@@ -27,6 +27,15 @@
       "phoneNumber": "+380985940300",
       "id": "73fd11e3-d9a0-4b64-940d-4e89c8fddd2c",
       "createdAt": "2023-06-24T19:06:14.925Z"
+    },
+    {
+      "email": "new@gmail.com",
+      "password": "Newnew",
+      "firstName": "New",
+      "lastName": "New",
+      "phoneNumber": "+380985910102",
+      "id": "910e4bba-dcc5-41c3-ad37-0243a21c13d1",
+      "createdAt": "2023-06-24T20:19:52.255Z"
     }
   ],
   "fighters": [

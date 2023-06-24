@@ -89,4 +89,27 @@ const updateUserValid = (req, res, next) => {
   next();
 };
 
-export { createUserValid, updateUserValid };
+const loginUserValid = (req, res, next) => {
+  // TODO: Implement validatior for user entity during update
+  const { email, password } = req.body;
+
+  // Валідація електронної адреси
+  const gmailRegex = /^[a-zA-Z0-9._-]+@gmail.com$/;
+  if (email && !gmailRegex.test(email)) {
+    return res
+      .status(400)
+      .json({ error: "Invalid email. Only Gmail addresses are allowed." });
+  }
+
+  // Валідація поля password
+  if (password && password.length < 3) {
+    return res.status(400).json({
+      error:
+        "Invalid password. Password should have a minimum length of 3 characters.",
+    });
+  }
+
+  next();
+};
+
+export { createUserValid, updateUserValid, loginUserValid };
