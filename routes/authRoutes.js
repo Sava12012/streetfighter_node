@@ -8,7 +8,10 @@ router.use(responseMiddleware);
 router.post("/login", (req, res, next) => {
   try {
     // TODO: Implement login action (get the user if it exists with entered credentials)
-    res.success(data);
+    const { email, password } = req.body; // TODO: Yurgo - middleware??
+    console.log(" email, password", email, password);
+    const user = authService.login({ email, password });
+    res.success(user);
   } catch (err) {
     res.error(err);
   } finally {

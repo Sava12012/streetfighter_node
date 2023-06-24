@@ -33,7 +33,7 @@ router.get("/:id", (req, res, next) => {
   try {
     const { id } = req.params;
     console.log("id: ", id);
-    const userData = userService.searchOne({ id });
+    const userData = userService.search({ id });
     res.success(userData);
   } catch (error) {
     next(error);

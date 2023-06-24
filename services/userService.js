@@ -16,7 +16,7 @@ class UserService {
     return item;
   }
 
-  searchOne(search) {
+  search(search) {
     const item = userRepository.getOne(search);
     if (!item) {
       return null;

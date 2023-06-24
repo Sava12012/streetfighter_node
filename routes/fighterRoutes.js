@@ -32,7 +32,7 @@ router.get("/:id", (req, res, next) => {
   try {
     const { id } = req.params;
     console.log("id: ", id);
-    const fightersData = fighterService.searchOne({ id });
+    const fightersData = fighterService.search({ id });
     res.success(fightersData);
   } catch (error) {
     next(error);

@@ -13,8 +13,7 @@ class FighterService {
     }
     return item;
   }
-  searchOne(search) {
-    console.log("search:", search);
+  search(search) {
     const item = fighterRepository.getOne(search);
     if (!item) {
       return null;
