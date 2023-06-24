@@ -6,6 +6,18 @@ const createUserValid = (req, res, next) => {
 
   // console.log(res);
   // TODO: Implement validatior for USER entity during creation
+  // Валідація полів firstName та lastName
+  const nameRegex = /^[a-zA-Z]+$/;
+  if (!nameRegex.test(firstName)) {
+    return res
+      .status(400)
+      .json({ error: "Invalid firstName. Only letters are allowed." });
+  }
+  if (!nameRegex.test(lastName)) {
+    return res
+      .status(400)
+      .json({ error: "Invalid lastName. Only letters are allowed." });
+  }
   // Валідація електронної адреси (лише Gmail)
   const gmailRegex = /^[a-zA-Z0-9._-]+@gmail.com$/;
   if (!gmailRegex.test(email)) {
@@ -30,19 +42,6 @@ const createUserValid = (req, res, next) => {
     });
   }
 
-  // Валідація полів firstName та lastName
-  const nameRegex = /^[a-zA-Z]+$/;
-  if (!nameRegex.test(firstName)) {
-    return res
-      .status(400)
-      .json({ error: "Invalid firstName. Only letters are allowed." });
-  }
-  if (!nameRegex.test(lastName)) {
-    return res
-      .status(400)
-      .json({ error: "Invalid lastName. Only letters are allowed." });
-  }
-
   next();
 };
 
@@ -52,10 +51,3 @@ const updateUserValid = (req, res, next) => {
 };
 
 export { createUserValid, updateUserValid };
-
-// email — тільки gmail
-// phoneNumber: +380xxxxxxxxx
-// power — число, 1 ≤ power ≤ 100
-// defense — число, 1 ≤ defense ≤ 10
-// health — число, 80 ≤ health ≤ 120, необов’язкове поле(за замовчуванням — 100)
-// password — строка, min 3 символи

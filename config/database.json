@@ -80,6 +80,69 @@
       "phoneNumber": "+380985910601",
       "id": "174b2aff-ff68-405d-9aae-6d9fd20c9159",
       "createdAt": "2023-06-24T09:22:15.477Z"
+    },
+    {
+      "email": "banan@gmail.com",
+      "password": "Banan",
+      "firstName": "Banan",
+      "lastName": "Banan",
+      "phoneNumber": "+380985910500",
+      "id": "8578ba5b-d269-4390-81b8-bf711d6060a4",
+      "createdAt": "2023-06-24T09:37:23.081Z"
+    },
+    {
+      "email": "banan@gmail.com",
+      "password": "Banan",
+      "firstName": "Banan",
+      "lastName": "Banan",
+      "phoneNumber": "+380985910500",
+      "id": "e26f7836-24ca-4db8-a8e4-42743ea63949",
+      "createdAt": "2023-06-24T09:41:15.255Z"
+    },
+    {
+      "email": "Basdasd@gmail.com",
+      "password": "Bannadsadadsdsa",
+      "firstName": "Bananaaa",
+      "lastName": "Banaaaas",
+      "phoneNumber": "+380985910300",
+      "id": "b182055e-77b9-42c0-88af-22b2e5b13784",
+      "createdAt": "2023-06-24T09:42:31.841Z"
+    },
+    {
+      "email": "Basdasd@gmail.com",
+      "password": "Bannadsadadsdsa",
+      "firstName": "Bananaaa",
+      "lastName": "Banaaaas",
+      "phoneNumber": "+380985910300",
+      "id": "6feb322f-c08e-46fd-9ca0-1000d9d86dca",
+      "createdAt": "2023-06-24T09:43:33.113Z"
+    },
+    {
+      "email": "Basdasd@gmail.com",
+      "password": "Bannadsadadsdsa",
+      "firstName": "Bananaaa",
+      "lastName": "Banaaaas",
+      "phoneNumber": "+380985910300",
+      "id": "3dc12344-194e-4d51-a7d1-93507103b658",
+      "createdAt": "2023-06-24T09:45:24.409Z"
+    },
+    {
+      "email": "Basdasd@gmail.com",
+      "password": "Bannadsadadsdsa",
+      "firstName": "Bananaaa",
+      "lastName": "Banaaaas",
+      "phoneNumber": "+380985910300",
+      "id": "b9fbf182-acb7-491d-99fa-7a6cc3d53b1e",
+      "createdAt": "2023-06-24T09:45:27.905Z"
+    },
+    {
+      "email": "Basdasd@gmail.com",
+      "password": "Bannadsadadsdsa",
+      "firstName": "Bananaaa",
+      "lastName": "Banaaaas",
+      "phoneNumber": "+380985910300",
+      "id": "9c4140f7-1cc4-4573-85d5-d7857febbc81",
+      "createdAt": "2023-06-24T09:45:33.496Z"
     }
   ],
   "fighters": [],
