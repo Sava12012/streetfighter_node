@@ -1,5 +1,87 @@
 {
-  "users": [],
+  "users": [
+    {
+      "email": "test@test",
+      "password": "testewtse2342422",
+      "firstName": "test",
+      "lastName": "test",
+      "phoneNumber": "0987787788",
+      "id": "7d67e3f2-f53a-4b0e-a934-3bf7a4e2843f",
+      "createdAt": "2023-06-24T08:51:28.806Z"
+    },
+    {
+      "email": "test@test",
+      "password": "12345",
+      "firstName": "test",
+      "lastName": "test",
+      "phoneNumber": "12345",
+      "id": "333fb331-2b33-425b-b339-d5f0f7a57c1d",
+      "createdAt": "2023-06-24T08:52:36.261Z"
+    },
+    {
+      "email": "t",
+      "password": "t",
+      "firstName": "t",
+      "lastName": "t",
+      "phoneNumber": "t",
+      "id": "3e46f9b3-f753-4ba3-961e-34e063e7d77c",
+      "createdAt": "2023-06-24T08:54:52.524Z"
+    },
+    {
+      "email": "tes",
+      "password": "weq",
+      "firstName": "test1",
+      "lastName": "test",
+      "phoneNumber": "tewt",
+      "id": "dd3472bd-4c41-48ff-a9ef-7e37277ccbe4",
+      "createdAt": "2023-06-24T08:56:32.325Z"
+    },
+    {
+      "email": "a",
+      "password": "a",
+      "firstName": "aq",
+      "lastName": "a",
+      "phoneNumber": "a",
+      "id": "cb6552ef-53d2-4ca8-ada5-ce4dd281f175",
+      "createdAt": "2023-06-24T08:57:27.627Z"
+    },
+    {
+      "email": "3",
+      "password": "5",
+      "firstName": "1",
+      "lastName": "2",
+      "phoneNumber": "4",
+      "id": "86c7a331-5c44-4d37-94aa-9f89d71edbd0",
+      "createdAt": "2023-06-24T08:58:47.844Z"
+    },
+    {
+      "email": "asdasd",
+      "password": "asddsasdas",
+      "firstName": "asdas",
+      "lastName": "asdasd",
+      "phoneNumber": "asdad",
+      "id": "f6f302cf-041e-4cab-80ad-6485c9aa31e4",
+      "createdAt": "2023-06-24T09:01:31.709Z"
+    },
+    {
+      "email": "123123",
+      "password": "123123",
+      "firstName": "1231",
+      "lastName": "1231",
+      "phoneNumber": "12313",
+      "id": "79bf0e64-4319-45bc-addf-cf80decd308d",
+      "createdAt": "2023-06-24T09:07:45.286Z"
+    },
+    {
+      "email": "banan@gmail.com",
+      "password": "adasddasdasd",
+      "firstName": "Banan",
+      "lastName": "Bananovich",
+      "phoneNumber": "+380985910601",
+      "id": "174b2aff-ff68-405d-9aae-6d9fd20c9159",
+      "createdAt": "2023-06-24T09:22:15.477Z"
+    }
+  ],
   "fighters": [],
   "fights": []
 }
