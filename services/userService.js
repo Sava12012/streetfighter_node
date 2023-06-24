@@ -8,6 +8,21 @@ class UserService {
     return newUser;
   }
 
+  searchAll() {
+    const item = userRepository.getAll();
+    if (!item) {
+      return null;
+    }
+    return item;
+  }
+
+  searchOne(search) {
+    const item = userRepository.getOne(search);
+    if (!item) {
+      return null;
+    }
+    return item;
+  }
   search(search) {
     const item = userRepository.getOne(search);
     if (!item) {

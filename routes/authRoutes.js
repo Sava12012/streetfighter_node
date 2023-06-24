@@ -7,7 +7,6 @@ router.use(responseMiddleware);
 
 router.post("/login", (req, res, next) => {
   try {
-    console.log("login route");
     // TODO: Implement login action (get the user if it exists with entered credentials)
     res.success(data);
   } catch (err) {

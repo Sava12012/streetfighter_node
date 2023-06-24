@@ -1,150 +1,65 @@
 {
   "users": [
     {
-      "email": "test@test",
-      "password": "testewtse2342422",
-      "firstName": "test",
-      "lastName": "test",
-      "phoneNumber": "0987787788",
-      "id": "7d67e3f2-f53a-4b0e-a934-3bf7a4e2843f",
-      "createdAt": "2023-06-24T08:51:28.806Z"
+      "email": "baraban@gmail.com",
+      "password": "Baraban2020",
+      "firstName": "Baraban",
+      "lastName": "Barabanovich",
+      "phoneNumber": "+380985910100",
+      "id": "2ebd6b34-c584-46fa-8220-1d1bf78b7d56",
+      "createdAt": "2023-06-24T10:34:29.819Z"
     },
     {
-      "email": "test@test",
-      "password": "12345",
-      "firstName": "test",
-      "lastName": "test",
-      "phoneNumber": "12345",
-      "id": "333fb331-2b33-425b-b339-d5f0f7a57c1d",
-      "createdAt": "2023-06-24T08:52:36.261Z"
+      "email": "1baraba1n@gmail.com",
+      "password": "Jlwbewqeq",
+      "firstName": "Muson",
+      "lastName": "Marat",
+      "phoneNumber": "+380985910400",
+      "id": "5a4c6ecf-3061-4d0e-bbfa-6b20063ea7f4",
+      "createdAt": "2023-06-24T11:10:26.913Z"
     },
     {
-      "email": "t",
-      "password": "t",
-      "firstName": "t",
-      "lastName": "t",
-      "phoneNumber": "t",
-      "id": "3e46f9b3-f753-4ba3-961e-34e063e7d77c",
-      "createdAt": "2023-06-24T08:54:52.524Z"
+      "email": "1baraba1n@gmail.com",
+      "password": "Jlwbewqeq",
+      "firstName": "Test",
+      "lastName": "Test",
+      "phoneNumber": "+380984910499",
+      "id": "6c4bd729-19cb-4165-b28f-8ac393c64c4b",
+      "createdAt": "2023-06-24T18:41:13.686Z"
     },
     {
-      "email": "tes",
-      "password": "weq",
-      "firstName": "test1",
-      "lastName": "test",
-      "phoneNumber": "tewt",
-      "id": "dd3472bd-4c41-48ff-a9ef-7e37277ccbe4",
-      "createdAt": "2023-06-24T08:56:32.325Z"
-    },
-    {
-      "email": "a",
-      "password": "a",
-      "firstName": "aq",
-      "lastName": "a",
-      "phoneNumber": "a",
-      "id": "cb6552ef-53d2-4ca8-ada5-ce4dd281f175",
-      "createdAt": "2023-06-24T08:57:27.627Z"
-    },
-    {
-      "email": "3",
-      "password": "5",
-      "firstName": "1",
-      "lastName": "2",
-      "phoneNumber": "4",
-      "id": "86c7a331-5c44-4d37-94aa-9f89d71edbd0",
-      "createdAt": "2023-06-24T08:58:47.844Z"
-    },
-    {
-      "email": "asdasd",
-      "password": "asddsasdas",
-      "firstName": "asdas",
-      "lastName": "asdasd",
-      "phoneNumber": "asdad",
-      "id": "f6f302cf-041e-4cab-80ad-6485c9aa31e4",
-      "createdAt": "2023-06-24T09:01:31.709Z"
-    },
-    {
-      "email": "123123",
-      "password": "123123",
-      "firstName": "1231",
-      "lastName": "1231",
-      "phoneNumber": "12313",
-      "id": "79bf0e64-4319-45bc-addf-cf80decd308d",
-      "createdAt": "2023-06-24T09:07:45.286Z"
-    },
-    {
-      "email": "banan@gmail.com",
-      "password": "adasddasdasd",
-      "firstName": "Banan",
-      "lastName": "Bananovich",
-      "phoneNumber": "+380985910601",
-      "id": "174b2aff-ff68-405d-9aae-6d9fd20c9159",
-      "createdAt": "2023-06-24T09:22:15.477Z"
-    },
-    {
-      "email": "banan@gmail.com",
-      "password": "Banan",
-      "firstName": "Banan",
-      "lastName": "Banan",
-      "phoneNumber": "+380985910500",
-      "id": "8578ba5b-d269-4390-81b8-bf711d6060a4",
-      "createdAt": "2023-06-24T09:37:23.081Z"
-    },
-    {
-      "email": "banan@gmail.com",
-      "password": "Banan",
-      "firstName": "Banan",
-      "lastName": "Banan",
-      "phoneNumber": "+380985910500",
-      "id": "e26f7836-24ca-4db8-a8e4-42743ea63949",
-      "createdAt": "2023-06-24T09:41:15.255Z"
-    },
-    {
-      "email": "Basdasd@gmail.com",
-      "password": "Bannadsadadsdsa",
-      "firstName": "Bananaaa",
-      "lastName": "Banaaaas",
-      "phoneNumber": "+380985910300",
-      "id": "b182055e-77b9-42c0-88af-22b2e5b13784",
-      "createdAt": "2023-06-24T09:42:31.841Z"
-    },
-    {
-      "email": "Basdasd@gmail.com",
-      "password": "Bannadsadadsdsa",
-      "firstName": "Bananaaa",
-      "lastName": "Banaaaas",
-      "phoneNumber": "+380985910300",
-      "id": "6feb322f-c08e-46fd-9ca0-1000d9d86dca",
-      "createdAt": "2023-06-24T09:43:33.113Z"
-    },
-    {
-      "email": "Basdasd@gmail.com",
-      "password": "Bannadsadadsdsa",
-      "firstName": "Bananaaa",
-      "lastName": "Banaaaas",
-      "phoneNumber": "+380985910300",
-      "id": "3dc12344-194e-4d51-a7d1-93507103b658",
-      "createdAt": "2023-06-24T09:45:24.409Z"
-    },
-    {
-      "email": "Basdasd@gmail.com",
-      "password": "Bannadsadadsdsa",
-      "firstName": "Bananaaa",
-      "lastName": "Banaaaas",
-      "phoneNumber": "+380985910300",
-      "id": "b9fbf182-acb7-491d-99fa-7a6cc3d53b1e",
-      "createdAt": "2023-06-24T09:45:27.905Z"
-    },
-    {
-      "email": "Basdasd@gmail.com",
-      "password": "Bannadsadadsdsa",
-      "firstName": "Bananaaa",
-      "lastName": "Banaaaas",
-      "phoneNumber": "+380985910300",
-      "id": "9c4140f7-1cc4-4573-85d5-d7857febbc81",
-      "createdAt": "2023-06-24T09:45:33.496Z"
+      "email": "new@gmail.com",
+      "password": "Newnew",
+      "firstName": "NEW",
+      "lastName": "NEWNEW",
+      "phoneNumber": "+380985940300",
+      "id": "73fd11e3-d9a0-4b64-940d-4e89c8fddd2c",
+      "createdAt": "2023-06-24T19:06:14.925Z"
     }
   ],
-  "fighters": [],
+  "fighters": [
+    {
+      "name": "Yyra",
+      "power": 10,
+      "defense": 10,
+      "id": "40c24073-12cc-4d35-a6a8-12ea5c57a536",
+      "createdAt": "2023-06-24T12:47:14.077Z"
+    },
+    {
+      "name": "New",
+      "power": 5,
+      "defense": 5,
+      "id": "85741d20-fbfb-43cd-bec7-4ad201f21e96",
+      "createdAt": "2023-06-24T18:25:31.942Z",
+      "updatedAt": "2023-06-24T19:24:01.293Z"
+    },
+    {
+      "name": "Karate",
+      "power": 8,
+      "defense": 6,
+      "id": "c4feb0db-0ad2-4470-bcf1-3b3e4dc9dd3e",
+      "createdAt": "2023-06-24T18:41:37.797Z"
+    }
+  ],
   "fights": []
 }

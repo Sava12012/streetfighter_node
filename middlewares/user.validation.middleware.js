@@ -1,7 +1,6 @@
 import { USER } from "../models/user.js";
 
 const createUserValid = (req, res, next) => {
-  console.log(req.body);
   const { email, password, firstName, lastName, phoneNumber } = req.body;
 
   // console.log(res);

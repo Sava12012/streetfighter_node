@@ -46,16 +46,16 @@ index.js — це точка входу в застосунок і конфіг�
 Необхідно реалізувати REST API для сутностей користувача і бійця.
 
     USER:
-        GET /api/users
-        GET /api/users/:id
-        POST /api/users
+      + GET /api/users
+      + GET /api/users/:id
+      + POST /api/users
         PUT /api/users/:id
         DELETE /api/users/:id
 
     FIGHTER
-        GET /api/fighters
-        GET /api/fighters/:id
-        POST /api/fighters
+      + GET /api/fighters
+      + GET /api/fighters/:id
+      + POST /api/fighters
         PUT /api/fighters/:id
         DELETE /api/fighters/:id
 

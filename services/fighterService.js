@@ -2,6 +2,32 @@ import { fighterRepository } from "../repositories/fighterRepository.js";
 
 class FighterService {
   // TODO: Implement methods to work with fighters
+  createFighter(fighterData) {
+    const newFighter = fighterRepository.create(fighterData);
+    return newFighter;
+  }
+  searchAll() {
+    const item = fighterRepository.getAll();
+    if (!item) {
+      return null;
+    }
+    return item;
+  }
+  searchOne(search) {
+    console.log("search:", search);
+    const item = fighterRepository.getOne(search);
+    if (!item) {
+      return null;
+    }
+    return item;
+  }
+  update(id, dataToUpdate) {
+    const item = fighterRepository.update(id, dataToUpdate);
+    if (!item) {
+      return null;
+    }
+    return item;
+  }
 }
 
 const fighterService = new FighterService();
