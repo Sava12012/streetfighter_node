@@ -36,6 +36,96 @@
       "phoneNumber": "+380985910102",
       "id": "910e4bba-dcc5-41c3-ad37-0243a21c13d1",
       "createdAt": "2023-06-24T20:19:52.255Z"
+    },
+    {
+      "email": "test2@gmail.com",
+      "password": "Test123Test",
+      "firstName": "Testtest",
+      "lastName": "Testtest",
+      "phoneNumber": "+380985910610",
+      "id": "0f3634fe-fbc0-4c5e-8cbd-053a9638b60e",
+      "createdAt": "2023-06-25T07:33:03.030Z"
+    },
+    {
+      "email": "new12331@gmail.com",
+      "password": "Newnew",
+      "firstName": "tetstwewe",
+      "lastName": "qweqweqe",
+      "phoneNumber": "+380985910605",
+      "id": "e18ceefd-8d76-4ae5-a821-fee0c5a42ed1",
+      "createdAt": "2023-06-25T07:33:42.928Z"
+    },
+    {
+      "email": "new12331@gmail.com",
+      "password": "Newnew",
+      "firstName": "tetstwewe",
+      "lastName": "qweqweqe",
+      "phoneNumber": "+380985910222",
+      "id": "848ae935-7f1d-4515-9d37-8dfc1561092f",
+      "createdAt": "2023-06-25T07:35:17.847Z"
+    },
+    {
+      "email": "new@gmail.com",
+      "password": "Newnew",
+      "firstName": "adasda",
+      "lastName": "asdasdasd",
+      "phoneNumber": "+380985910640",
+      "id": "a38210ba-8e44-4ab1-a092-59924f21fabb",
+      "createdAt": "2023-06-25T07:36:26.447Z"
+    },
+    {
+      "email": "new@gmail.com",
+      "password": "Newnew",
+      "firstName": "Xxxxxx",
+      "lastName": "Xxxxxxx",
+      "phoneNumber": "+380984939213",
+      "id": "51134329-acbd-4965-a8a5-0f4ea6a7e932",
+      "createdAt": "2023-06-25T07:37:17.717Z"
+    },
+    {
+      "email": "new@gmail.com",
+      "password": "Newnew",
+      "firstName": "XXXX",
+      "lastName": "XXXXX",
+      "phoneNumber": "+380985940200",
+      "id": "bb984965-03c2-4f5f-9e8a-0702c983a18c",
+      "createdAt": "2023-06-25T07:39:43.465Z"
+    },
+    {
+      "email": "new@gmail.com",
+      "password": "Newnew",
+      "firstName": "XXXXXXX",
+      "lastName": "XXXXXXXX",
+      "phoneNumber": "+380984930200",
+      "id": "1f02d46b-1f64-4e1d-9f0f-d807fe0b37ac",
+      "createdAt": "2023-06-25T07:43:23.156Z"
+    },
+    {
+      "email": "new1@gmail.com",
+      "password": "Newnew",
+      "firstName": "XXXXX",
+      "lastName": "XXXXX",
+      "phoneNumber": "+380985910470",
+      "id": "9680b77b-39ec-4239-9f07-528e4820f3fe",
+      "createdAt": "2023-06-25T07:47:57.012Z"
+    },
+    {
+      "email": "new12@gmail.com",
+      "password": "Newnew",
+      "firstName": "XXXXX",
+      "lastName": "XXXXX",
+      "phoneNumber": "+380985910600",
+      "id": "fcef080d-e2a5-4984-989d-6302aeb270a7",
+      "createdAt": "2023-06-25T07:48:38.563Z"
+    },
+    {
+      "email": "asdasdasnew@gmail.com",
+      "password": "Newnew",
+      "firstName": "XXXXX",
+      "lastName": "XXXXX",
+      "phoneNumber": "+380985910600",
+      "id": "66a3dd94-ab5e-42ef-9286-d97c46013346",
+      "createdAt": "2023-06-25T07:50:05.107Z"
     }
   ],
   "fighters": [

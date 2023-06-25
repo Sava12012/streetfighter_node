@@ -1,4 +1,5 @@
 import { USER } from "../models/user.js";
+import { userRepository } from "../repositories/userRepository.js";
 
 const createUserValid = (req, res, next) => {
   const { email, password, firstName, lastName, phoneNumber } = req.body;
@@ -112,4 +113,29 @@ const loginUserValid = (req, res, next) => {
   next();
 };
 
-export { createUserValid, updateUserValid, loginUserValid };
+const validationUserDublicate = (req, res, next) => {
+  const { email, phoneNumber } = req.body;
+
+  const isUserExistEmail = userRepository.getOne({ email });
+  const isUserExistPhone = userRepository.getOne({ phoneNumber });
+  console.log("isUserExistPhone: ", isUserExistPhone);
+  if (isUserExistEmail) {
+    return res.status(400).json({
+      error: "Sorry, the user with same email is already exist",
+    });
+  }
+  if (isUserExistPhone) {
+    return res.status(400).json({
+      error: "Sorry, the user with same phone is already exist",
+    });
+  }
+
+  next();
+};
+
+export {
+  createUserValid,
+  updateUserValid,
+  loginUserValid,
+  validationUserDublicate,
+};
