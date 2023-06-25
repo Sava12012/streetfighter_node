@@ -1,13 +1,24 @@
 import { FIGHTER } from "../models/fighter.js";
 import { fighterRepository } from "../repositories/fighterRepository.js";
 
-// TODO: YurGo. the same validarors not repeated // ADD: name, id
 const createFighterValid = (req, res, next) => {
   // TODO: Implement validatior for FIGHTER entity during creation
   const { name, power, defense, health, id } = req.body;
 
   if (id) {
     return res.status(400).json({ error: "id cannot be in body." });
+  }
+
+  // Дозволені властивості
+  const allowedProperties = ["name", "power", "defense", "health"];
+
+  // Перевірка на наявність недозволених властивостей
+  const invalidProperties = Object.keys(req.body).filter(
+    (property) => !allowedProperties.includes(property)
+  );
+
+  if (invalidProperties.length > 0) {
+    return res.status(400).json({ error: "only requred filds allowed" });
   }
 
   if (!name || !power || !defense) {
@@ -41,6 +52,18 @@ const updateFighterValid = (req, res, next) => {
 
   if (id) {
     return res.status(400).json({ error: "id cannot be changed." });
+  }
+
+  // Дозволені властивості
+  const allowedProperties = ["name", "power", "defense"];
+
+  // Перевірка на наявність недозволених властивостей
+  const invalidProperties = Object.keys(req.body).filter(
+    (property) => !allowedProperties.includes(property)
+  );
+
+  if (invalidProperties.length > 0) {
+    return res.status(400).json({ error: "only requred filds allowed" });
   }
 
   if (!name && !defense && !power) {
