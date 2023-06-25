@@ -1,23 +1,24 @@
 {
   "users": [
     {
-      "email": "newnew@gmail.com",
-      "password": "newnewnew",
-      "firstName": "New",
-      "lastName": "Newnew",
-      "phoneNumber": "+380085910000",
+      "email": "banan.savych@gmail.com",
+      "password": "1231312",
+      "firstName": "",
+      "lastName": "Baraban",
+      "phoneNumber": "+380075910000",
       "id": "2ebd6b34-c584-46fa-8220-1d1bf78b7d56",
       "createdAt": "2023-06-24T10:34:29.819Z",
-      "updatedAt": "2023-06-24T19:41:56.505Z"
+      "updatedAt": "2023-06-25T08:40:51.613Z"
     },
     {
-      "email": "1baraba1n@gmail.com",
-      "password": "Jlwbewqeq",
-      "firstName": "Test",
-      "lastName": "Test",
-      "phoneNumber": "+380984910499",
+      "email": "sava.savych@gmail.com",
+      "password": "newnewnew",
+      "firstName": "",
+      "lastName": "Baraban",
+      "phoneNumber": "+380075910000",
       "id": "6c4bd729-19cb-4165-b28f-8ac393c64c4b",
-      "createdAt": "2023-06-24T18:41:13.686Z"
+      "createdAt": "2023-06-24T18:41:13.686Z",
+      "updatedAt": "2023-06-25T08:37:32.206Z"
     },
     {
       "email": "new@gmail.com",
@@ -36,16 +37,133 @@
       "phoneNumber": "+380985910102",
       "id": "910e4bba-dcc5-41c3-ad37-0243a21c13d1",
       "createdAt": "2023-06-24T20:19:52.255Z"
+    },
+    {
+      "email": "test2@gmail.com",
+      "password": "Test123Test",
+      "firstName": "Testtest",
+      "lastName": "Testtest",
+      "phoneNumber": "+380985910610",
+      "id": "0f3634fe-fbc0-4c5e-8cbd-053a9638b60e",
+      "createdAt": "2023-06-25T07:33:03.030Z"
+    },
+    {
+      "email": "new12331@gmail.com",
+      "password": "Newnew",
+      "firstName": "tetstwewe",
+      "lastName": "qweqweqe",
+      "phoneNumber": "+380985910605",
+      "id": "e18ceefd-8d76-4ae5-a821-fee0c5a42ed1",
+      "createdAt": "2023-06-25T07:33:42.928Z"
+    },
+    {
+      "email": "new12331@gmail.com",
+      "password": "Newnew",
+      "firstName": "tetstwewe",
+      "lastName": "qweqweqe",
+      "phoneNumber": "+380985910222",
+      "id": "848ae935-7f1d-4515-9d37-8dfc1561092f",
+      "createdAt": "2023-06-25T07:35:17.847Z"
+    },
+    {
+      "email": "new@gmail.com",
+      "password": "Newnew",
+      "firstName": "adasda",
+      "lastName": "asdasdasd",
+      "phoneNumber": "+380985910640",
+      "id": "a38210ba-8e44-4ab1-a092-59924f21fabb",
+      "createdAt": "2023-06-25T07:36:26.447Z"
+    },
+    {
+      "email": "new@gmail.com",
+      "password": "Newnew",
+      "firstName": "Xxxxxx",
+      "lastName": "Xxxxxxx",
+      "phoneNumber": "+380984939213",
+      "id": "51134329-acbd-4965-a8a5-0f4ea6a7e932",
+      "createdAt": "2023-06-25T07:37:17.717Z"
+    },
+    {
+      "email": "new@gmail.com",
+      "password": "Newnew",
+      "firstName": "XXXX",
+      "lastName": "XXXXX",
+      "phoneNumber": "+380985940200",
+      "id": "bb984965-03c2-4f5f-9e8a-0702c983a18c",
+      "createdAt": "2023-06-25T07:39:43.465Z"
+    },
+    {
+      "email": "new@gmail.com",
+      "password": "Newnew",
+      "firstName": "XXXXXXX",
+      "lastName": "XXXXXXXX",
+      "phoneNumber": "+380984930200",
+      "id": "1f02d46b-1f64-4e1d-9f0f-d807fe0b37ac",
+      "createdAt": "2023-06-25T07:43:23.156Z"
+    },
+    {
+      "email": "new1@gmail.com",
+      "password": "Newnew",
+      "firstName": "XXXXX",
+      "lastName": "XXXXX",
+      "phoneNumber": "+380985910470",
+      "id": "9680b77b-39ec-4239-9f07-528e4820f3fe",
+      "createdAt": "2023-06-25T07:47:57.012Z"
+    },
+    {
+      "email": "new12@gmail.com",
+      "password": "Newnew",
+      "firstName": "XXXXX",
+      "lastName": "XXXXX",
+      "phoneNumber": "+380985910600",
+      "id": "fcef080d-e2a5-4984-989d-6302aeb270a7",
+      "createdAt": "2023-06-25T07:48:38.563Z"
+    },
+    {
+      "email": "asdasdasnew@gmail.com",
+      "password": "Newnew",
+      "firstName": "XXXXX",
+      "lastName": "XXXXX",
+      "phoneNumber": "+380985910600",
+      "id": "66a3dd94-ab5e-42ef-9286-d97c46013346",
+      "createdAt": "2023-06-25T07:50:05.107Z"
+    },
+    {
+      "email": "XXXXXXX@gmail.com",
+      "password": "Newnew",
+      "firstName": "XXXX",
+      "lastName": "XXXXX",
+      "phoneNumber": "+380985910100",
+      "id": "f3122e7e-5b3a-4797-9007-e6f741de551e",
+      "createdAt": "2023-06-25T08:51:13.249Z"
+    },
+    {
+      "email": "qqqqqq@gmail.com",
+      "password": "Newnew",
+      "firstName": "qqq",
+      "lastName": "qqqq",
+      "phoneNumber": "+380986920400",
+      "id": "df5d77b7-19f0-4516-9e3b-050e2b61b4d7",
+      "createdAt": "2023-06-25T08:52:45.760Z"
+    },
+    {
+      "email": "wwwww@gmail.com",
+      "password": "Newnew",
+      "firstName": "WWWWW",
+      "lastName": "WWWWW",
+      "phoneNumber": "+380984920500",
+      "id": "330a9583-a157-4e9d-8d53-180dd1e5eede",
+      "createdAt": "2023-06-25T08:54:40.759Z"
     }
   ],
   "fighters": [
     {
-      "name": "New",
-      "power": 5,
+      "name": "Nasos",
+      "power": 2,
       "defense": 5,
-      "id": "85741d20-fbfb-43cd-bec7-4ad201f21e96",
+      "id": "85741d20-fbfb-43cd-bec7-4ad201f21e97",
       "createdAt": "2023-06-24T18:25:31.942Z",
-      "updatedAt": "2023-06-24T19:24:01.293Z"
+      "updatedAt": "2023-06-25T08:15:43.320Z"
     },
     {
       "name": "Karate",
@@ -53,6 +171,20 @@
       "defense": 6,
       "id": "c4feb0db-0ad2-4470-bcf1-3b3e4dc9dd3e",
       "createdAt": "2023-06-24T18:41:37.797Z"
+    },
+    {
+      "name": "SKATINA",
+      "power": 5,
+      "defense": 5,
+      "id": "9b757701-deae-4be0-835c-60dea7d14019",
+      "createdAt": "2023-06-25T09:08:49.661Z"
+    },
+    {
+      "name": "skatina",
+      "power": 5,
+      "defense": 5,
+      "id": "bb05cbb9-072d-4433-b090-7f7f7000e04e",
+      "createdAt": "2023-06-25T09:09:02.939Z"
     }
   ],
   "fights": []

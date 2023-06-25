@@ -1,4 +1,5 @@
 import { USER } from "../models/user.js";
+import { userRepository } from "../repositories/userRepository.js";
 
 const createUserValid = (req, res, next) => {
   const { email, password, firstName, lastName, phoneNumber } = req.body;
@@ -41,13 +42,25 @@ const createUserValid = (req, res, next) => {
     });
   }
 
+  req.body.email = email.toLowerCase();
+
   next();
 };
 
 const updateUserValid = (req, res, next) => {
   const nameRegex = /^[a-zA-Z]+$/;
   // TODO: Implement validatior for user entity during update
-  const { email, password, firstName, lastName, phoneNumber } = req.body;
+  const { email, password, firstName, lastName, phoneNumber, id } = req.body;
+
+  if (id) {
+    return res.status(400).json({ error: "id cannot be changed." });
+  }
+
+  if (!email && !password && !firstName && !lastName && !phoneNumber) {
+    return res
+      .status(400)
+      .json({ error: "At least one field should be present for update." });
+  }
 
   // Валідація полів firstName та lastName
   if (firstName && !nameRegex.test(firstName)) {
@@ -63,7 +76,7 @@ const updateUserValid = (req, res, next) => {
 
   // Валідація електронної адреси
   const gmailRegex = /^[a-zA-Z0-9._-]+@gmail.com$/;
-  if (email && !gmailRegex.test(email)) {
+  if (email && !gmailRegex.test(email.toLowerCase())) {
     return res
       .status(400)
       .json({ error: "Invalid email. Only Gmail addresses are allowed." });
@@ -112,4 +125,28 @@ const loginUserValid = (req, res, next) => {
   next();
 };
 
-export { createUserValid, updateUserValid, loginUserValid };
+const validationUserDublicate = (req, res, next) => {
+  const { email, phoneNumber } = req.body;
+
+  const isUserExistEmail = userRepository.getOne({ email });
+  const isUserExistPhone = userRepository.getOne({ phoneNumber });
+  if (isUserExistEmail) {
+    return res.status(400).json({
+      error: "Sorry, the user with same email is already exist",
+    });
+  }
+  if (isUserExistPhone) {
+    return res.status(400).json({
+      error: "Sorry, the user with same phone is already exist",
+    });
+  }
+
+  next();
+};
+
+export {
+  createUserValid,
+  updateUserValid,
+  loginUserValid,
+  validationUserDublicate,
+};

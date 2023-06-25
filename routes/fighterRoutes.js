@@ -4,20 +4,26 @@ import { responseMiddleware } from "../middlewares/response.middleware.js";
 import {
   createFighterValid,
   updateFighterValid,
+  validationFighterDublicate,
 } from "../middlewares/fighter.validation.middleware.js";
 
 const router = Router();
 // TODO: Implement route controllers for fighter
 router.use(responseMiddleware);
-router.post("/", createFighterValid, (req, res, next) => {
-  try {
-    const fighterData = req.body;
-    const newFighter = fighterService.createFighter(fighterData);
-    res.success(newFighter);
-  } catch (error) {
-    next(error);
+router.post(
+  "/",
+  createFighterValid,
+  validationFighterDublicate,
+  (req, res, next) => {
+    try {
+      const fighterData = req.body;
+      const newFighter = fighterService.createFighter(fighterData);
+      res.success(newFighter);
+    } catch (error) {
+      next(error);
+    }
   }
-});
+);
 
 router.get("/", (req, res, next) => {
   try {
