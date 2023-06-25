@@ -8,6 +8,15 @@
       "phoneNumber": "+380985910400",
       "id": "e4b2eadd-617e-41ef-b5db-190dafe4d6be",
       "createdAt": "2023-06-25T09:50:13.768Z"
+    },
+    {
+      "email": "sosobabakanew@gmail.com",
+      "password": "Newnew",
+      "firstName": "Sobaka",
+      "lastName": "Sobaka",
+      "phoneNumber": "+380987910400",
+      "id": "21ecef99-dcb1-4e58-a16f-83a0d41122a2",
+      "createdAt": "2023-06-25T17:21:57.442Z"
     }
   ],
   "fighters": [
@@ -50,6 +59,13 @@
       "defense": 5,
       "id": "1720870e-489b-4cc9-9982-fc4bd7a04efb",
       "createdAt": "2023-06-25T10:29:18.821Z"
+    },
+    {
+      "name": "Boberese",
+      "power": 5,
+      "defense": 5,
+      "id": "d3e361a0-85a2-4608-85c5-15af1657e4c6",
+      "createdAt": "2023-06-25T17:27:29.359Z"
     }
   ],
   "fights": []

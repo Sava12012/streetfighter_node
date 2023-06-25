@@ -8,7 +8,24 @@ const createUserValid = (req, res, next) => {
     return res.status(400).json({ error: "id cannot be in body." });
   }
 
-  // console.log(res);
+  // Дозволені властивості
+  const allowedProperties = [
+    "firstName",
+    "lastName",
+    "email",
+    "phoneNumber",
+    "password",
+  ];
+
+  // Перевірка на наявність недозволених властивостей
+  const invalidProperties = Object.keys(req.body).filter(
+    (property) => !allowedProperties.includes(property)
+  );
+
+  if (invalidProperties.length > 0) {
+    return res.status(400).json({ error: "only requred filds allowed" });
+  }
+
   // TODO: Implement validatior for USER entity during creation
   // Валідація полів firstName та lastName
   const nameRegex = /^[a-zA-Z]+$/;
@@ -60,6 +77,24 @@ const updateUserValid = (req, res, next) => {
     return res.status(400).json({ error: "id cannot be changed." });
   }
 
+  // Дозволені властивості
+  const allowedProperties = [
+    "firstName",
+    "lastName",
+    "email",
+    "phoneNumber",
+    "password",
+  ];
+
+  // Перевірка на наявність недозволених властивостей
+  const invalidProperties = Object.keys(req.body).filter(
+    (property) => !allowedProperties.includes(property)
+  );
+
+  if (invalidProperties.length > 0) {
+    return res.status(400).json({ error: "only requred filds allowed" });
+  }
+
   if (!email && !password && !firstName && !lastName && !phoneNumber) {
     return res
       .status(400)
@@ -109,6 +144,18 @@ const updateUserValid = (req, res, next) => {
 const loginUserValid = (req, res, next) => {
   // TODO: Implement validatior for user entity during update
   const { email, password } = req.body;
+
+  // Дозволені властивості
+  const allowedProperties = ["email", "password"];
+
+  // Перевірка на наявність недозволених властивостей
+  const invalidProperties = Object.keys(req.body).filter(
+    (property) => !allowedProperties.includes(property)
+  );
+
+  if (invalidProperties.length > 0) {
+    return res.status(400).json({ error: "only requred filds allowed" });
+  }
 
   // Валідація електронної адреси
   const gmailRegex = /^[a-zA-Z0-9._-]+@gmail.com$/;
