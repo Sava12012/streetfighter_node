@@ -46,7 +46,6 @@ router.put("/:id", updateUserValid, (req, res, next) => {
     const { id } = req.params;
     const dataToUpdate = req.body;
 
-    console.log("id, dataToUpdate", id, dataToUpdate);
     const updatedUser = userService.update(id, dataToUpdate);
     res.success(updatedUser);
   } catch (error) {
@@ -59,6 +58,11 @@ router.delete("/:id", (req, res, next) => {
   try {
     const { id } = req.params;
     const result = userService.delete(id);
+
+    if (result.length === 0) {
+      console.log("null length");
+      return res.notFound("nothing to delete");
+    }
     res.success(result); // TODO: YurGo return 204
   } catch (error) {
     next(error);

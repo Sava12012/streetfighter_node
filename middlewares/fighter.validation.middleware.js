@@ -4,7 +4,15 @@ import { fighterRepository } from "../repositories/fighterRepository.js";
 // TODO: YurGo. the same validarors not repeated // ADD: name, id
 const createFighterValid = (req, res, next) => {
   // TODO: Implement validatior for FIGHTER entity during creation
-  const { name, power, defense, health } = req.body;
+  const { name, power, defense, health, id } = req.body;
+
+  if (id) {
+    return res.status(400).json({ error: "id cannot be in body." });
+  }
+
+  if (!name || !power || !defense) {
+    return res.status(400).json({ error: "the field is not filled" });
+  }
 
   const nameRegex = /^[a-zA-Z]+$/;
   if (!nameRegex.test(name)) {

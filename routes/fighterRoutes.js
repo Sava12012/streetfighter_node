@@ -58,13 +58,14 @@ router.put("/:id", updateFighterValid, (req, res, next) => {
 });
 
 router.delete("/:id", (req, res, next) => {
-  // TODO: YurGo id validation?
   try {
     const { id } = req.params;
-
-    console.log("id fighter to delete", id);
     const result = fighterService.delete(id);
-    res.success(result); // TODO: YurGo return 204
+
+    if (result.length === 0) {
+      return res.notFound("nothing to delete");
+    }
+    res.success(result);
   } catch (error) {
     next(error);
   }
