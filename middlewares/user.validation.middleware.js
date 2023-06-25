@@ -2,7 +2,11 @@ import { USER } from "../models/user.js";
 import { userRepository } from "../repositories/userRepository.js";
 
 const createUserValid = (req, res, next) => {
-  const { email, password, firstName, lastName, phoneNumber } = req.body;
+  const { email, password, firstName, lastName, phoneNumber, id } = req.body;
+
+  if (id) {
+    return res.status(400).json({ error: "id cannot be in body." });
+  }
 
   // console.log(res);
   // TODO: Implement validatior for USER entity during creation
