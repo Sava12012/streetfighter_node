@@ -4,6 +4,13 @@ import { userRepository } from "../repositories/userRepository.js";
 const createUserValid = (req, res, next) => {
   const { email, password, firstName, lastName, phoneNumber, id } = req.body;
 
+  const isAllFieldsPresent =
+    email && password && firstName && lastName && phoneNumber;
+
+  if (!isAllFieldsPresent) {
+    return res.status(400).json({ error: "Missing required fields" });
+  }
+
   if (id) {
     return res.status(400).json({ error: "id cannot be in body." });
   }
