@@ -5,12 +5,13 @@
       "password": "Newnew",
       "firstName": "Sobaka",
       "lastName": "Sobaka",
-      "phoneNumber": "+380985910400",
+      "phoneNumber": "+380985110400",
       "id": "e4b2eadd-617e-41ef-b5db-190dafe4d6be",
-      "createdAt": "2023-06-25T09:50:13.768Z"
+      "createdAt": "2023-06-25T09:50:13.768Z",
+      "updatedAt": "2023-06-26T17:53:26.428Z"
     },
     {
-      "email": "sosobabakanew@gmail.com",
+      "email": "new@gmail.com",
       "password": "Newnew",
       "firstName": "Sobaka",
       "lastName": "Sobaka",
@@ -40,18 +41,6 @@
       "defense": 4,
       "id": "da8bfb51-0b2e-4db6-a22a-b24ddec5c8dc",
       "createdAt": "2023-06-25T09:49:51.474Z"
-    },
-    {
-      "power": 5,
-      "defense": 5,
-      "id": "40d9cddb-5cdb-46ba-9919-b8b7a3f32d3d",
-      "createdAt": "2023-06-25T10:21:32.552Z"
-    },
-    {
-      "power": 5,
-      "defense": 5,
-      "id": "ab34d45f-7102-4fc2-8983-938a35c05d72",
-      "createdAt": "2023-06-25T10:27:59.095Z"
     },
     {
       "name": "Bober",

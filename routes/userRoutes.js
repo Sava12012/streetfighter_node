@@ -63,7 +63,7 @@ router.delete("/:id", (req, res, next) => {
       console.log("null length");
       return res.notFound("nothing to delete");
     }
-    res.success(result); // TODO: YurGo return 204
+    res.success(result);
   } catch (error) {
     next(error);
   }
